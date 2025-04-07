@@ -37,6 +37,7 @@ checkpoints/
 runs/
 tmp/
 cache/
+Data/
 
 # Python envs
 .env/
