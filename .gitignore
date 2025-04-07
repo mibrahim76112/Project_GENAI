@@ -1,18 +1,50 @@
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.bin
+*.exe
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.flac
+*.mp3
 
-# Byte-compiled / optimized / DLL files
+# Model/data files
+*.ckpt
+*.h5
+*.pth
+*.pt
+*.tfrecord
+*.npz
+*.npy
+
+# Jupyter/VS Code cache
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
-venv/
-.venv/
-
-# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# VS Code settings
 .vscode/
 
-# Environment variables
-.env
+# Output folders
+outputs/
+logs/
+models/
+checkpoints/
+runs/
+tmp/
+cache/
+
+# Python envs
+.env/
+.venv/
+env/
+venv/
+*.egg-info/
+
+# System
+.DS_Store
+Thumbs.db
