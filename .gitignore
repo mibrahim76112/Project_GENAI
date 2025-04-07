@@ -38,7 +38,7 @@ runs/
 tmp/
 cache/
 Data/
-
+venv/
 # Python envs
 .env/
 .venv/
